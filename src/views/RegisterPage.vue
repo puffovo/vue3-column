@@ -80,7 +80,6 @@ export default defineComponent({
             }).then(({ code }) => {
               if (code) {
               // 注册成功
-              // useCreateToast(`${msg} 2秒后跳转到主页。`, 'success')
                 alert('注册成功，1赶快登录叭！')
                 setTimeout(() => {
                   router.replace('login')
@@ -94,9 +93,6 @@ export default defineComponent({
             alert('邮箱已注册了嗷！')
           }
         })
-        /*         router.push('/')// 跳转到首页
-        // 使用commit触发mutations的login函数
-        store.commit('login') */
       }
     }
     return {

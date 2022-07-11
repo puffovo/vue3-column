@@ -32,7 +32,6 @@ import { useRouter } from 'vue-router'
 import { useStore } from 'vuex'
 import ValidateInput, { RulesProp } from '../components/ValidateInput.vue'
 import ValidateForm from '../components/ValidateForm.vue'
-import useCreateToast from '../hooks/useCreateToast'
 export default defineComponent({
   components: {
     ValidateInput,
@@ -83,10 +82,9 @@ export default defineComponent({
         store.dispatch('loginAndGetUser', {
           email: emailVal.value,
           password: passwordVal.value
-        }).then(({ code, msg }) => {
+        }).then(({ code }) => {
           if (code) {
             // 登录成功
-            // useCreateToast(`${msg} 2秒后跳转到主页。`, 'success')
             alert('登陆成功，1s跳转到主页')
             setTimeout(() => {
               router.replace('/')
@@ -94,12 +92,8 @@ export default defineComponent({
           } else {
             // 登录失败
             alert('登陆失败，请验证邮箱或密码是否正确')
-            // useCreateToast(msg, 'fail')
           }
         })
-        /*         router.push('/')// 跳转到首页
-        // 使用commit触发mutations的login函数
-        store.commit('login') */
       }
     }
     return {

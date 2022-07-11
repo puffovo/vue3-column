@@ -16,7 +16,6 @@
 
 <script lang="ts">
 import router from '@/router'
-import axios from 'axios'
 import { defineComponent, computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { useStore } from 'vuex'
