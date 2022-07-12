@@ -3,7 +3,7 @@
 # 后端接口
 后端基于Node.js、express、MySQL实现，项目中所有数据都是通过后端接口获取，[接口传送地址](https://github.com/puffovo/Vue3-column-api)。
 # 技术栈
-Vue3 + Vuex + Vue-router + TypeScript + ES6 + Bootstap + Express + MySQL
+Vue3 + Vuex + Vue-router + TypeScript + ES6 + Bootstrap + Express + MySQL
 # 项目运行
 ```
 https://github.com/puffovo/vue3-column.git
