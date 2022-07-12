@@ -44,5 +44,6 @@ App running at: http://localhost:8080/
 6. 新建文章
 7. 上传头图
 8. 我的文章
+9. 删除文章
 # 结语
 该项目还在美化完善中，如果您想要学习Vue3和TypeScript，了解后端express、nodejs以及MySQl，可以尝试该项目，欢迎交流讨论！
