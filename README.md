@@ -12,5 +12,20 @@ npm run serve
 
 App running at: http://localhost:8080/
 ```
-#效果图
+# 效果图
+### 首页
 ![首页](https://github.com/puffovo/vue3-column/blob/main/Screenshots/1.png)
+![首页](https://github.com/puffovo/vue3-column/blob/main/Screenshots/2.png)
+### 专栏
+![专栏](https://github.com/puffovo/vue3-column/blob/main/Screenshots/3.png)
+### 创建文章（上传头图）
+![文章](https://github.com/puffovo/vue3-column/blob/main/Screenshots/4.png)
+![文章](https://github.com/puffovo/vue3-column/blob/main/Screenshots/5.png)
+### 上传文章
+![文章](https://github.com/puffovo/vue3-column/blob/main/Screenshots/6.png)
+### 登录
+![登录](https://github.com/puffovo/vue3-column/blob/main/Screenshots/7.png)
+### 注册
+![注册](https://github.com/puffovo/vue3-column/blob/main/Screenshots/8.png)
+
+
