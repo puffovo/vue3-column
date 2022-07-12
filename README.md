@@ -17,12 +17,16 @@ App running at: http://localhost:8080/
 
 # 效果图
 ### 首页
+1.
 ![首页](https://github.com/puffovo/vue3-column/blob/main/Screenshots/1.png)
+2.
 ![首页](https://github.com/puffovo/vue3-column/blob/main/Screenshots/2.png)
 ### 专栏
 ![专栏](https://github.com/puffovo/vue3-column/blob/main/Screenshots/3.png)
 ### 创建文章（上传头图）
+1.
 ![文章](https://github.com/puffovo/vue3-column/blob/main/Screenshots/4.png)
+2.
 ![文章](https://github.com/puffovo/vue3-column/blob/main/Screenshots/5.png)
 ### 上传文章
 ![文章](https://github.com/puffovo/vue3-column/blob/main/Screenshots/6.png)
