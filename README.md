@@ -1,4 +1,4 @@
-# 说明
+# 泡芙专栏
 该项目是一款基于Vue3、Typescript和Node.js express的一个模块化设计的前后端分离项目，仿知乎专栏--泡芙专栏。
 # 后端接口
 后端基于Node.js、express、MySQL实现，项目中所有数据都是通过后端接口获取，[接口传送地址](https://github.com/puffovo/Vue3-column-api)。
